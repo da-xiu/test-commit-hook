@@ -57,6 +57,7 @@ npx husky-init && npm install
 
 ```javascript
 npx husky add .husky/commit-msg
+npx husky add .husky/pre-commit
 ```
 
 最后在生成的commit-msg文件中添加`npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'`
